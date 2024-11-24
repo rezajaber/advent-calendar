@@ -30,8 +30,6 @@ onMounted(() => {
 
 <template>
     <div class="flex justify-between items-center">
-      <h1 class="text-7xl text-red-700 font-title">X'mas Adventskalender</h1>
-
-     
+      <h1 class="text-7xl text-[#dbc1ac] font-title">X'mas Adventskalender</h1>
     </div>
 </template>
