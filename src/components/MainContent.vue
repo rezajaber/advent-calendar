@@ -18,8 +18,10 @@
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
       
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">1</p>
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">1</p>
+      </div>
     </div>
    
     <!-- TWO -->
@@ -34,8 +36,10 @@
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
       
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">2</p>
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">2</p>
+      </div>
     </div>
 
     <!-- THREE -->
@@ -49,9 +53,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">3</p>
+       
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">3</p>
+      </div>
     </div>
     
     <!-- FOUR -->
@@ -65,10 +71,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">4
-        </p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">4</p>
+      </div>
     </div>
 
     <!-- FIVE -->
@@ -82,9 +89,10 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">5</p>
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">5</p>
+      </div>
     </div>
 
     <!-- SIX -->
@@ -99,8 +107,10 @@
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
       
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">6</p>
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">6</p>
+      </div>
     </div>
 
     <!-- SEVEN -->
@@ -114,9 +124,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">7</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">7</p>
+      </div>
     </div>
 
   
@@ -133,10 +145,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">8
-        </p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">8</p>
+      </div>
     </div>
 
     <!-- NINE -->
@@ -150,9 +163,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">9</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">9</p>
+      </div>
     </div>
     
     <!-- TEN -->
@@ -166,9 +181,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-2xl font-bold">10</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">10</p>
+      </div>
     </div>
 
      <!-- ELEVEN -->
@@ -182,9 +199,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-2xl font-bold">10</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">11</p>
+      </div>
     </div>
 
     <!-- TWELVE -->
@@ -198,9 +217,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">12</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">12</p>
+      </div>
     </div>
 
     <!-- Row 3 -->
@@ -215,9 +236,10 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">13</p>
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">13</p>
+      </div>
     </div>
 
     <!-- FOURTEEN -->
@@ -231,9 +253,10 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">14</p>
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">14</p>
+      </div>
     </div>
 
     <!-- FIFTEEN -->
@@ -247,9 +270,10 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">15</p>
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">15</p>
+      </div>
     </div>
    
 
@@ -264,10 +288,10 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">16
-        </p>
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">16</p>
+      </div>
     </div>
 
     <!-- 17 -->
@@ -281,9 +305,10 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">17</p>
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">17</p>
+      </div>
     </div>
    
     <!-- 18 -->
@@ -297,10 +322,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">18
-        </p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">18</p>
+      </div>
     </div>
 
     <!-- 17 -->
@@ -314,9 +340,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">19</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">19</p>
+      </div>>
     </div>
     
     <!-- 20 -->
@@ -330,10 +358,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">20
-        </p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">20</p>
+      </div>
     </div>
     
 
@@ -349,9 +378,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">21</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">21</p>
+      </div>
     </div>
 
 
@@ -367,9 +398,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">22</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">22</p>
+      </div>
     </div>
     
 
@@ -384,9 +417,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">23</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">23</p>
+      </div>
     </div>
     
 
@@ -401,9 +436,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">24</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-8xl">24</p>
+      </div>
     </div>
     
 
@@ -418,9 +455,11 @@
         <!-- Darkening overlay -->
         <div class="absolute inset-0 bg-black/20"></div>
       </div>
-      
-      <!-- Number on top -->
-        <p class="absolute left-3 top-2 object-cover text-4xl font-bold">25</p>
+
+      <!-- NUMBERS -->
+      <div class="absolute inset-0 flex items-center justify-center">
+        <p class="text-white font-title text-7xl">25</p>
+      </div>
     </div>
     
    
