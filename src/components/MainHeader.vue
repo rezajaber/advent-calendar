@@ -47,10 +47,10 @@ onUnmounted(() => {
 
     <div class="flex items-center gap-2">
       <div class="flex flex-col items-center bg-[#4d2828] bg-opacity-80 rounded-lg p-3 w-20">
-        <div class="text-4xl font-body font-bold text-white">
+        <div class="text-4xl font-title text-white">
           {{ String(countdown.days).padStart(2, '0') }}
         </div>
-        <div class="text-xs text-[#7e4f4f] mt-1">
+        <div class="text-xs font-title text-[#7e4f4f] mt-1">
           Tage
         </div>
       </div>
@@ -58,10 +58,10 @@ onUnmounted(() => {
       <div class="text-white text-2xl font-bold flex flex-col justify-center h-full pb-4">:</div>
 
       <div class="flex flex-col items-center bg-[#4d2828] bg-opacity-80 rounded-lg p-3 w-20">
-        <div class="text-4xl font-body font-bold text-white">
+        <div class="text-4xl font-title text-white">
           {{ String(countdown.hours).padStart(2, '0') }}
         </div>
-        <div class="text-xs text-[#7e4f4f] mt-1">
+        <div class="text-xs font-title text-[#7e4f4f] mt-1">
           Stunden
         </div>
       </div>
@@ -69,10 +69,10 @@ onUnmounted(() => {
       <div class="text-white text-2xl font-bold flex flex-col justify-center h-full pb-4">:</div>
 
       <div class="flex flex-col items-center bg-[#4d2828] bg-opacity-80 rounded-lg p-3 w-20">
-        <div class="text-4xl font-body font-bold text-white">
+        <div class="text-4xl font-title text-white">
           {{ String(countdown.minutes).padStart(2, '0') }}
         </div>
-        <div class="text-xs text-[#7e4f4f] mt-1">
+        <div class="text-xs font-title text-[#7e4f4f] mt-1">
           Minuten
         </div>
       </div>
@@ -80,10 +80,10 @@ onUnmounted(() => {
       <div class="text-white text-2xl font-bold flex flex-col justify-center h-full pb-4">:</div>
 
       <div class="flex flex-col items-center bg-[#4d2828] bg-opacity-80 rounded-lg p-3 w-20">
-        <div class="text-4xl font-body font-bold text-white">
+        <div class="text-4xl font-title text-white">
           {{ String(countdown.seconds).padStart(2, '0') }}
         </div>
-        <div class="text-xs text-[#7e4f4f] mt-1">
+        <div class="text-xs font-title text-[#7e4f4f] mt-1">
           Sekunden
         </div>
       </div>
