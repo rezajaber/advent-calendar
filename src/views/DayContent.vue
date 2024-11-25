@@ -6,285 +6,180 @@ const dayNumber = route.params.number;
 
 const dayContent = {
   1: {
-    movie: "Santa Claus 1",
-    movieImage: "https://image.tmdb.org/t/p/w500/9wSbe4CwObACCQvaUVhWQyLR5Vz.jpg",
-    movieDescription: "Als ein Mann an Heiligabend den Weihnachtsmann versehentlich von seinem Dach stürzt, wird er magisch dazu rekrutiert, dessen Platz einzunehmen.",
-    movieLink: "https://www.disneyplus.com/movies/the-santa-clause/1Fuq9Y9yZ7mu",
+    movie: "The Christmas Chronicles",
+    movieLink: "https://www.netflix.com/search?q=The%20Christ&jbv=80199682",
     song: "It's Beginning to Look a Lot Like Christmas – Michael Bublé",
-    songImage: "https://m.media-amazon.com/images/I/718TkO2DizL._UF1000,1000_QL80_.jpg",
     songLink: "https://www.youtube.com/watch?v=0bhsXykXxfg",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
     storyLink: "/story/1"
   },
   2: {
-    movie: "Santa Claus 2",
-    movieImage: "https://image.tmdb.org/t/p/w500/oOleziEempUPu96jkGs0Pj6tKxj.jpg",
-    movieDescription: "Scott Calvin ist seit acht Jahren der Weihnachtsmann, aber er muss bis Heiligabend eine Mrs. Claus finden, sonst hört er auf, Weihnachtsmann zu sein.",
-    movieLink: "https://www.disneyplus.com/movies/the-santa-clause-2/31r4V0qAIpD6",
+    movie: "The Christmas Chronicles 2",
+    movieLink: "https://www.netflix.com/title/80988988",
     song: "White Christmas – Frank Sinatra",
-    songImage: "https://i.scdn.co/image/ab67616d0000b273b037583e1b1a897ec49488a1",
     songLink: "https://www.youtube.com/watch?v=aDmVtvAvR18",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/2"
   },
   3: {
-    movie: "Santa Claus 3",
-    movieImage: "https://image.tmdb.org/t/p/w500/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
-    movieDescription: "Santa muss Jack Frost davon abhalten, Weihnachten zu übernehmen, während er sich mit seinen Schwiegereltern auseinandersetzt und versucht, seiner Familie zu helfen, sich an das Leben am Nordpol zu gewöhnen.",
-    movieLink: "https://www.disneyplus.com/movies/the-santa-clause-3-the-escape-clause/1p4QGZitQJL4",
+    movie: "Violent Night",
+    movieLink: "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.c3e1377d-958f-4b77-8b6a-81def58589be?autoplay=0&ref_=atv_cf_strg_wb",
     song: "Underneath the Tree – Kelly Clarkson",
-    songImage: "https://i.scdn.co/image/ab67616d0000b273b985bec71a40ed40c8ee15c8",
     songLink: "https://www.youtube.com/watch?v=YfF10ow4YEo",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/3"
   },
   4: {
-    movie: "Polarexpress",
-    movieImage: "https://image.tmdb.org/t/p/w500/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
-    movieDescription: "An Heiligabend begibt sich ein Junge auf ein magisches Abenteuer zum Nordpol im Polar-Express und lernt dabei Freundschaft, Mut und den Geist von Weihnachten kennen.",
-    movieLink: "https://play.hbomax.com/page/urn:hbo:page:GXdu2ZQvq8JuAuwEAADbA:type:feature",
+    movie: "Meet me next Christmas",
+    movieLink: "https://www.netflix.com/watch/81918297",
     song: "Last Christmas - Wham!",
-    songImage: "https://i1.sndcdn.com/artworks-UlkJ6CL7fdHwpiRi-v0E9Ug-t1080x1080.jpg",
     songLink: "https://www.youtube.com/watch?v=E8gmARGvPlI",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/4"
   },
   5: {
-    movie: "Grinch",
-    movieImage: "https://m.media-amazon.com/images/M/MV5BNWNkNzBhYzUtNjc3Yy00NTNhLThlYjUtYzcyZjNlOWVmMjNjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
-    movieDescription: "Ein griesgrämiger Einsiedler schmiedet einen Plan, Weihnachten von den Bewohnern von Whoville zu stehlen. Doch ein großzügiges kleines Mädchen könnte den Tag retten.",
-    movieLink: "https://www.peacocktv.com/watch/asset/movies/how-the-grinch-stole-christmas/0c6b4bc6-33ab-3e38-aa67-8a14565c8c38",
+    movie: "Holidate",
+    movieLink: "https://www.netflix.com/search?q=Christmas&jbv=81034553",
     song: "Santa Tell Me – Ariana Grande",
-    songImage: "https://i.scdn.co/image/ab67616d0000b273a1db745e63940bc06985dea5",
     songLink: "https://www.youtube.com/watch?v=nlR0MkrRklg",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/5"
   },
   6: {
-    movie: "Ebenezer Scrooge",
-    movieImage: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DA6804681279CEED51BCEE50497B4FB8CDBBFBEF11B7DC1F99A78C5F5C1E2973/scale?width=1200&aspectRatio=1.78&format=webp",
-    movieDescription: "Eine animierte Nacherzählung von Charles Dickens' klassischem Roman über einen geizigen alten Mann, der von mehreren geheimnisvollen Erscheinungen auf eine Reise der Selbstfindung geführt wird.",
-    movieLink: "https://www.disneyplus.com/de-de/browse/entity-8f498e51-90de-4f5d-8cb9-5b4dd4de81dc",
+    movie: "Red One",
+    movieLink: "https://www.cinemaxx.de/ticketshop/30005/73/1001/461D8900023FVUVQLG",
     song: "Silent Night – Justin Bieber",
-    songImage: "https://www.justinbiebermusic.com/files/2019/11/release_201911_54cf62caa0575670d3cc5a7cf7183aa77e471681.jpg",
     songLink: "https://www.youtube.com/watch?v=9WZI4g7qKrg",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/6"
   },
   7: {
-    movie: "A Christmas Carol",
-    movieDescription: "Die klassische Geschichte von Ebenezer Scrooge, einem geizigen alten Mann, der an Heiligabend von Geistern besucht wird, die ihn die wahre Bedeutung von Weihnachten erkennen lassen.",
-    movieLink: "https://www.amazon.com/Christmas-Carol-George-C-Scott/dp/B000VDDCLW",
+    movie: "Scrooge",
+    movieLink: "https://www.disneyplus.com/de-de/browse/entity-8f498e51-90de-4f5d-8cb9-5b4dd4de81dc",
     song: "Have Yourself a Merry Little Christmas – Sam Smith",
-    songImage: "https://m.media-amazon.com/images/I/61dk2qm8uJL._UXNaN_FMjpg_QL85_.jpg",
     songLink: "https://www.youtube.com/watch?v=rnEqv8WcVq8",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/7"
   },
   8: {
-    movie: "It's a Wonderful Life",
-    movieDescription: "Ein Engel wird vom Himmel geschickt, um einem verzweifelten Geschäftsmann zu helfen, indem er ihm zeigt, wie das Leben ohne ihn gewesen wäre.",
-    movieLink: "https://www.amazon.com/Its-Wonderful-Life-James-Stewart/dp/B000HEWEJO",
+    movie: "Noelle",
+    movieLink: "https://www.disneyplus.com/de-de/browse/entity-23089de2-21bb-4674-86a0-35dcd09f4d2c",
     song: "Silver Bells – Michael Bublé & Naturally 7",
-    songImage: "https://m.media-amazon.com/images/I/718TkO2DizL._UF1000,1000_QL80_.jpg",
     songLink: "https://www.youtube.com/watch?v=Ll7l2KXygNg",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/8"
   },
   9: {
-    movie: "The Nightmare Before Christmas",
-    movieDescription: "Jack Skellington, der König von Halloween Town, entdeckt Christmas Town, doch seine Versuche, Weihnachten nach Hause zu bringen, führen zu Verwirrung.",
-    movieLink: "https://www.disneyplus.com/movies/tim-burtons-the-nightmare-before-christmas/5GjwOj5Rkpz2",
+    movie: "Schöne und das Biest",
+    movieLink: "https://www.disneyplus.com/de-de/browse/entity-68296821-e59b-429f-b92c-90303f00bc53",
     song: "Rockin' Around The Christmas Tree - Brenda Lee",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/6/6d/Single_Brenda_Lee-Rockin%27_Around_the_Christmas_Tree_cover.jpg",
     songLink: "https://www.youtube.com/watch?v=1qYz7rfgLWE",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/9"
   },
   10: {
-    movie: "Love Actually",
-    movieDescription: "Die Geschichte von acht unterschiedlichen Paaren, die in der hektischen Vorweihnachtszeit in London ihre Liebesgeschichten erleben.",
-    movieLink: "https://www.peacocktv.com/watch/asset/movies/love-actually/cd73b524-5d45-3f44-96cd-7bc2c84ce56d",
+    movie: "Frozen",
+    movieLink: "https://www.disneyplus.com/de-de/browse/entity-04c97b72-504b-47f2-9c6f-fe13d9aea82f",
     song: "Let It Snow! Let It Snow! Let It Snow! - Dean Martin",
-    songImage: "https://i.scdn.co/image/ab67616d0000b2736d88028a85c771f37374c8ea",
     songLink: "https://www.youtube.com/watch?v=Rnil5LyK_B0",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/10"
   },
   11: {
-    movie: "National Lampoon's Christmas Vacation",
-    movieDescription: "Die Weihnachtspläne der Griswold-Familie verwandeln sich erwartungsgemäß in ein großes Chaos.",
-    movieLink: "https://play.hbomax.com/page/urn:hbo:page:GXdu2UwPp6LC3wwEAADe1:type:feature",
+    movie: "Frozen 2",
+    movieLink: "https://www.disneyplus.com/de-de/browse/entity-3f9272e2-33f1-47db-bb2e-9aa2c7c85a96",
     song: "Baby It's Cold Outside – Michael Bublé & Idina Menzel",
-    songImage: "https://i1.sndcdn.com/artworks-Em4gCl2K3Bt5-0-t500x500.jpg",
     songLink: "https://www.youtube.com/watch?v=6bbuBubZ1yE",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/11"
   },
   12: {
-    movie: "The Holiday",
-    movieDescription: "Zwei Frauen mit Beziehungsproblemen tauschen ihre Häuser und finden in der Fremde die Liebe.",
-    movieLink: "https://www.netflix.com/title/70045854",
+    movie: "Grinch",
+    movieLink: "https://www.amazon.de/-/en/Grinch-Scott-Mosier/dp/B07LFP2FP2?crid=I377H34J7IXJ&dib=eyJ2IjoiMSJ9.hUVy2lNm_6zgsNAo-XZCuS8AzRoMjUoADDVtN9w5RnqzElHo4dEUXmlnWVbyr4j7DKNAfnloO-xzfWW0m_D2HXX203u-e_cv0OHGhsHB1src_AsyrmY6BFR9-CyQQYe5ywFK7-C5yY4eaJsfTJfoKifH37vgqTRRsv1L7rkbfMinxfRZ77xPFdEv_bWrugFBq5KiZmGYAQN6DEQw-IKbpeMYSSe_kSSU1fMeVffBmv8.geKgHX79yYJhuNbPvtzqYrVm177u1n4h8AVjMXbFW0I&dib_tag=se&keywords=weihnachten&qid=1732575397&s=instant-video&sprefix=weihnachte%2Cinstant-video%2C84&sr=1-1",
     song: "Jingle Bell Rock – Hall & Oates",
-    songImage: "https://i.scdn.co/image/ab67616d0000b273758f7f6791ee819e6c2999b4",
     songLink: "https://www.youtube.com/watch?v=5vyMuxxLsD0M",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/12"
   },
   13: {
-    movie: "A Charlie Brown Christmas",
-    movieDescription: "Frustriert von der Kommerzialisierung um ihn herum versucht Charlie Brown, den wahren Geist von Weihnachten zu finden.",
-    movieLink: "https://tv.apple.com/us/movie/a-charlie-brown-christmas/umc.cmc.3sr1g8vtlmgrv1gfat0mdjv33",
+    movie: "Elliot das kleinste Rehntier",
+    movieLink: "https://www.amazon.de/-/en/Jennifer-Westcott/dp/B07KCFCYQT?crid=I377H34J7IXJ&dib=eyJ2IjoiMSJ9.hUVy2lNm_6zgsNAo-XZCuS8AzRoMjUoADDVtN9w5RnqzElHo4dEUXmlnWVbyr4j7DKNAfnloO-xzfWW0m_D2HXX203u-e_cv0OHGhsHB1src_AsyrmY6BFR9-CyQQYe5ywFK7-C5yY4eaJsfTJfoKifH37vgqTRRsv1L7rkbfMinxfRZ77xPFdEv_bWrugFBq5KiZmGYAQN6DEQw-IKbpeMYSSe_kSSU1fMeVffBmv8.geKgHX79yYJhuNbPvtzqYrVm177u1n4h8AVjMXbFW0I&dib_tag=se&keywords=weihnachten&qid=1732575448&s=instant-video&sprefix=weihnachte%2Cinstant-video%2C84&sr=1-2",
     song: "Mistletoe – Justin Bieber",
-    songImage: "https://m.media-amazon.com/images/I/71WTcKzH4rL._UF1000,1000_QL80_.jpg",
     songLink: "https://www.youtube.com/watch?v=LUjn3RpkcKY",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/13"
   },
   14: {
-    movie: "Bad Santa",
-    movieDescription: "Ein unglücklicher Trickbetrüger und sein Partner geben sich als Weihnachtsmann und Helfer aus, um an Heiligabend Kaufhäuser auszurauben.",
-    movieLink: "https://www.amazon.com/Bad-Santa-Billy-Bob-Thornton/dp/B003QSPK1Q",
+    movie: "Polarexpress",
+    movieLink: "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.cca9f6d9-11e9-6332-aa00-3f5eaac2da8a?autoplay=0&ref_=atv_cf_strg_wb",
     song: "Do You Hear What I Hear? – Whitney Houston",
-    songImage: "https://cdns-images.dzcdn.net/images/cover/57791c4a61f7060657928e8eabaf9172/1900x1900-000000-80-0-0.jpg",
     songLink: "https://www.youtube.com/watch?v=kZ-coIXJf4s",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/14"
   },
   15: {
-    movie: "Scrooged",
-    movieDescription: "Ein selbstsüchtiger und zynischer Fernsehdirektor wird an Heiligabend von drei Geistern heimgesucht, die ihm wertvolle Lektionen beibringen.",
-    movieLink: "https://www.paramountplus.com/movies/scrooged/LxUvG_zVqJ46pfU9QafFUVuKXKA_k_xP",
+    movie: "Spirited",
+    movieLink: "https://tv.apple.com/de/movie/spirited/umc.cmc.3lp7wqowerzdbej98tveildi3?action=play",
     song: "O Holy Night – Mariah Carey",
-    songImage: "https://i.scdn.co/image/ab67616d0000b2734246e3158421f5abb75abc4f",
     songLink: "https://www.youtube.com/watch?v=BEJmP8T07JU",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/15"
   },
   16: {
-    movie: "Die Hard",
-    movieDescription: "Ein NYPD-Offizier versucht, seine Frau und mehrere Geiseln vor deutschen Terroristen zu retten, die eine Weihnachtsfeier in Los Angeles gestört haben.",
-    movieLink: "https://www.disneyplus.com/movies/die-hard/6hmr0UxNxs50",
+    movie: "Harry Potter 1",
+    movieLink: "https://www.amazon.de/-/en/Harry-Potter-Philosophers-Stone-Columbus/dp/B00JGV38WG?crid=2MGQRMK2WYJK9&dib=eyJ2IjoiMSJ9.m6bfX0kM4JfY7Ec4F7c50PiFHz3nPz6Ur2KNsU4DGXWPiTmSkWcEHUiDv85pX0PiC493d2vVfTUwgseqC9pPRMehRtDadyuMy_pp20q3Te6Wc1Ed_5dTREy7rnJ_N5_S3ebx5G8hsi1QeowXL9ujZ5YSfP03h1xnRTmWKsAXHzbuQzt12McPnq2YxY3cD2blnJqScdHaJCQAKtl7M6KeTZQvB-dXySL9CEFOv6DKgr8.r8MO91z3c9MmPIvcPMkSBi3Rbrt1XfI_NPNVSKVYG5s&dib_tag=se&keywords=harry+potter+1&nsdOptOutParam=true&qid=1732575741&s=instant-video&sprefix=harry+potter+1%2Cinstant-video%2C88&sr=1-1",
     song: "Christmas (Baby Please Come Home) – Mariah Carey",
-    songImage: "https://cdns-images.dzcdn.net/images/cover/60d8f7635ead9b3c5e571aec47a8c73e/0x1900-000000-80-0-0.jpg",
     songLink: "https://www.youtube.com/watch?v=W_QigU6t9U0",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/16"
   },
   17: {
-    movie: "Home Alone 2: Lost in New York",
-    movieDescription: "Ein Jahr, nachdem Kevin allein zu Hause war, strandet er versehentlich in New York City - und die gleichen Kriminellen sind ihm dicht auf den Fersen.",
-    movieLink: "https://www.disneyplus.com/movies/home-alone-2-lost-in-new-york/5GjwOj5Rkpz2",
+    movie: "Harry Potter 2",
+    movieLink: "https://www.amazon.de/gp/video/detail/B0B8NCQZYM/ref=atv_dp_amz_c_MG6btijs_brws_1_1?jic=8%7CEgNhbGw%3D",
     song: "Frosty the Snowman – Michael Bublé",
-    songImage: "https://m.media-amazon.com/images/I/718TkO2DizL._UF1000,1000_QL80_.jpg",
     songLink: "https://www.youtube.com/watch?v=jIyVB1b2aBs",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/17"
   },
   18: {
-    movie: "Arthur Christmas",
-    movieDescription: "Der tollpatschige Sohn des Weihnachtsmannes, Arthur, macht sich auf eine Mission, ein vergessenes Geschenk rechtzeitig auszuliefern.",
-    movieLink: "https://www.netflix.com/title/70167077",
+    movie: "Harry Potter 3",
+    movieLink: "https://www.amazon.de/-/en/Potter-Prisoner-Azkaban-Alfonso-Cuar%C3%B3n/dp/B00FYUOEPI?crid=6Z9R3Z601WTF&dib=eyJ2IjoiMSJ9.VUtyBwqoj-X6velNuwBIely90HCfyRLt9efmT2BUpouDGYZihTHKxP34Lv56_9qPfCOheOUuQKCl8POvaAf7563gwM23g_vLWwJbggBPAuyMsEUXZ3Er_-JJgAtJyTQNiwdwVVCeOM5uGtWw4JCijEqVoYI5I9n5mJnVYtjrp-MQQYHbh_LbWiwhZOWw8P0hDQ12Uko3txSzvTTSoDadJ4c4FwrHaEk-vh4MErhF7F4.d-XmXRFwftx2UKo3jr-Xv1023mrULYFuv0OnXpV3tCI&dib_tag=se&keywords=harry+potter+3&nsdOptOutParam=true&qid=1732575781&s=instant-video&sprefix=harry+potter+%2Cinstant-video%2C110&sr=1-1",
     song: "My Only Wish (This Year) – Britney Spears",
-    songImage: "https://www.bide-et-musique.com/images/pochettes/18161.jpg",
     songLink: "https://www.youtube.com/watch?v=VkGD-FpYoLA",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/18"
   },
   19: {
-    movie: "White Christmas",
-    movieDescription: "Ein erfolgreiches Tanz- und Gesangsduo verliebt sich in ein Schwesterngespann und arbeitet daran, ein Hotel in Vermont zu retten.",
-    movieLink: "https://www.netflix.com/title/60003082",
+    movie: "Harry Potter 4",
+    movieLink: "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.cea9f6d7-7cd1-0df7-5da2-38e01af81cd8?autoplay=0&ref_=atv_cf_strg_wb",
     song: "Santa Claus Is Coming to Town – Jackson 5",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/4/4f/Jackson5-ChristmasAlbum.jpg",
     songLink: "https://www.youtube.com/watch?v=HhiUOCo8LYQ",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/19"
   },
   20: {
-    movie: "The Muppet Christmas Carol",
-    movieDescription: "Die Muppet-Figuren erzählen ihre Version der klassischen Geschichte eines alten und geizigen Mannes, der an Heiligabend Erlösung findet.",
-    movieLink: "https://www.disneyplus.com/movies/the-muppet-christmas-carol/3Kqgp8R7PuUE",
+    movie: "Harry Potter 5",
+    movieLink: "https://www.amazon.de/-/en/Harry-Potter-Order-Phoenix-David/dp/B00RYENTOY?crid=23DMCJE9JPJJQ&dib=eyJ2IjoiMSJ9.OX6Jle2W7AYx9-2VCJ_M3Z4pQRxGfwCzCPBtsyxYQS2fmm_i_vxvRY_j6AZs2WmksfMKmF75FhhwKAxcE-IKMpeIluQVgxV8z7RYtwwDqUqbeWU8yMiNVBjSMTRrV-DtkY6wgHRnP6DwCmqqWYyabx2PrRfnk0vvYk5VVhE6DEjAfJQMTwbkqSHkp8d1kPDC0P-clOyf2TOrf7LOn8fTynBnNdBYSCxk-ySJxD2DoBU.bSfKGixV4Cv6jpP5_o0p-IGzVCmua4trgc0W_HLHtvo&dib_tag=se&keywords=Harry+Potter+5&nsdOptOutParam=true&qid=1732575816&s=instant-video&sprefix=harry+potter+5%2Cinstant-video%2C84&sr=1-1",
     song: "All I Want for Christmas Is You – Mariah Carey",
-    songImage: "https://m.media-amazon.com/images/I/81U6o32LuUL._UF894,1000_QL80_.jpg",
     songLink: "https://www.youtube.com/watch?v=aAkMkVFwAoo",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/20"
   },
   21: {
-    movie: "Fred Claus",
-    movieDescription: "Fred Claus, der verbitterte ältere Bruder des Weihnachtsmannes, muss zum Nordpol ziehen, um Santa und den Elfen zu helfen.",
-    movieLink: "https://play.hbomax.com/page/urn:hbo:page:GXdu2UwuaXqPDwgEAAABr:type:feature",
+    movie: "Harry Potter 6",
+    movieLink: "https://www.amazon.de/-/en/Harry-Potter-Half-Blood-Prince-David/dp/B0CVMW26LP?crid=9SX64KVWKS17&dib=eyJ2IjoiMSJ9.wkmRgSJTah29pqv4jvzxc7hK1jAQVwm2G7UkL0ilIK96P7tcD9kZE7FMbjeA4VtlcKLh2IK7D6DrW93NBywVBsGgXwlBo19a7apfEowo8l_I22QfOBhOM_yVB3tJprZJ2hdc1Q-ap9w25BLtnpqMv7uUoOn7eXkIZ0tOd25p38xx0jh2vqHn90Ps5ruNUVnugG78DK2RRRcKe88IZmvAVqu3FOmcCEJL7NyrZ_DIX0w.9Y0ho_rKF46JH-lKTgAgL-ZR2WSo1rHcVkDBbWUH_Kg&dib_tag=se&keywords=Harry+Potter+6&nsdOptOutParam=true&qid=1732575829&s=instant-video&sprefix=harry+potter+6%2Cinstant-video%2C92&sr=1-1",
     song: "Christmas Eve – Kelly Clarkson",
-    songImage: "https://i.scdn.co/image/ab67616d0000b27365a5a69e8e008fd75909f15c",
     songLink: "https://www.youtube.com/watch?v=9NVU3B33_4Q",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/21"
   },
   22: {
-    movie: "The Christmas Chronicles",
-    movieDescription: "Zwei Geschwister schließen sich mit dem Weihnachtsmann zusammen für ein hochfliegendes Weihnachtsabenteuer.",
-    movieLink: "https://www.netflix.com/title/80199682",
+    movie: "Harry Potter 7",
+    movieLink: "https://www.amazon.de/-/en/Harry-Potter-Deathly-Hallows-Part/dp/B00IKEOUHM?crid=1XVS856SSEM2R&dib=eyJ2IjoiMSJ9.85xDF5mgZupoB5sKxX2JfSqUQj4MaYWyBl8IupiH_MQJlgCXvQmsjt5Hf67FqPVrAvMaxmpN5ah3hwSkWNtKinkrn7hS7KiOs6j6uHzImwYNY4sVBw7ayqDGRyz3s5h0ZmOWG3VuqebOAUsRGbGsuIrkOvaH85FNxJMRUgrvOK720c-CqR7d_FWlpMBB_PO_XXSpZ6pAmuz4XeItHxDLcw7iXBR6xTfF7oPinUt3_zo.otlWTBohHrtn8w57qPMqoub4DmBPdqlroDlbWCth6ik&dib_tag=se&keywords=Harry+Potter+7&nsdOptOutParam=true&qid=1732575838&s=instant-video&sprefix=harry+potter+%2Cinstant-video%2C109&sr=1-1",
     song: "Holly Jolly Christmas – Michael Bublé",
-    songImage: "https://m.media-amazon.com/images/I/718TkO2DizL._UF1000,1000_QL80_.jpg",
     songLink: "https://www.youtube.com/watch?v=Dkq3LD-4pmM",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/22"
   },
   23: {
-    movie: "The Snowman",
-    movieDescription: "Ein Junge baut einen Schneemann, der lebendig wird und ihn auf ein magisches Abenteuer mitnimmt, um den Weihnachtsmann zu treffen.",
-    movieLink: "https://www.amazon.com/Snowman-Peter-Auty/dp/B07KRNXK4H",
+    movie: "Willy Wonka",
+    movieLink: "https://www.amazon.de/gp/video/detail/amzn1.dv.gti.1c100f7c-38bf-4058-8bc0-c1889e183194?autoplay=0&ref_=atv_cf_strg_wb",
     song: "Deck the Halls – Pentatonix",
     songImage: "https://i1.sndcdn.com/artworks-000278547860-zgjvfa-t500x500.jpg",
     songLink: "https://www.youtube.com/watch?v=UqItlHUSN-4",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/23"
   },
   24: {
-    movie: "Rudolph the Red-Nosed Reindeer",
-    movieDescription: "Ein Außenseiter-Rentier und seine Freunde suchen einen Ort, an dem sie akzeptiert werden.",
-    movieLink: "https://www.amazon.com/Rudolph-Red-Nosed-Reindeer-Billie-Richards/dp/B000VDDCD2",
+    movie: "Kevin allein in New York",
+    movieLink: "https://www.disneyplus.com/de-de/browse/entity-7fec1899-bf4d-42fe-bd4b-58998a6d2187",
     song: "It's the Most Wonderful Time of the Year – Andy Williams",
-    songImage: "https://m.media-amazon.com/images/I/711UExmCgML._UF1000,1000_QL80_.jpg",
     songLink: "https://www.youtube.com/watch?v=AN_R4pR1hck",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/24"
   },
   25: {
     movie: "A Christmas Story",
-    movieDescription: "In den 1940er Jahren versucht ein Junge namens Ralphie, seine Eltern, Lehrer und den Weihnachtsmann davon zu überzeugen, dass ein Red Ryder BB Gewehr das perfekte Geschenk ist.",
     movieLink: "https://play.hbomax.com/page/urn:hbo:page:GXdkpqAvq0r7DwgEAAAAH:type:feature",
     song: "Christmas Playlist",
-    songImage: "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84864f6792bc9f140e1ddbb828",
     songLink: "https://www.youtube.com/watch?v=o6wJSwbKbds",
-    story: "The Magic of Christmas Eve",
-    storyImage: "../assets/stories/story1.jpg",
-    storyLink: "/story/1"
+    storyLink: "/story/25"
   }
 };
 
