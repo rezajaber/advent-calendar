@@ -1,4 +1,11 @@
 <script setup>
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
+const openDoor = (dayNumber) => {
+  router.push(`/day/${dayNumber}`);
+};
 </script>
 
 <template>
@@ -6,7 +13,10 @@
   <div class="grid grid-cols-9 gap-2.5">
     <!-- Row 1 -->
     <!-- ONE -->
-    <div class="col-span-1 h-40 rounded-lg relative overflow-hidden">
+    <div 
+      @click="openDoor(6)" 
+      class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 transition-transform"
+    >
       <div class="absolute inset-0">
         <img 
           src="../assets/img/one.jpeg" 
@@ -22,7 +32,10 @@
     </div>
    
     <!-- TWO -->
-    <div class="col-span-2 h-40 rounded-lg relative overflow-hidden">
+    <div 
+      @click="openDoor(12)" 
+      class="col-span-2 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 transition-transform"
+    >
       <div class="absolute inset-0">
         <img 
           src="../assets/img/two.jpeg" 

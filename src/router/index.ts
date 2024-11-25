@@ -9,6 +9,11 @@ const router = createRouter({
       name: "home",
       component: HomeView,
     },
+    {
+      path: '/day/:number',
+      name: 'DayContent',
+      component: () => import('../views/DayContent.vue')
+    },
   ],
 });
 
