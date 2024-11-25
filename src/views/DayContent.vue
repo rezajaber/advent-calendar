@@ -28,7 +28,7 @@ const dayContent = {
   },
   4: {
     movie: "Meet me next Christmas",
-    movieLink: "https://www.netflix.com/watch/81918297",
+    movieLink: "https://www.netflix.com/title/81392060",
     song: "Last Christmas - Wham!",
     songLink: "https://www.youtube.com/watch?v=E8gmARGvPlI",
     storyLink: "/story/4"
