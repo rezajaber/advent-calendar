@@ -6,132 +6,133 @@ const dayNumber = route.params.number;
 
 const dayContent = {
   1: {
-    movie: "Home Alone",
+    movie: "Santa Claus 1",
     movieImage: "https://image.tmdb.org/t/p/w500/9wSbe4CwObACCQvaUVhWQyLR5Vz.jpg",
-    song: "All I Want for Christmas Is You - Mariah Carey",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "It's Beginning to Look a Lot Like Christmas – Michael Bublé",
+    songImage: "https://i.ytimg.com/vi/QJ5DOWPGxwg/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGFkgWShZMA8=&rs=AOn4CLBOaeTlkvLuKcdORc4j43vSmeC9oA"
   },
   2: {
-    movie: "Elf",
+    movie: "Santa Claus 2",
     movieImage: "https://image.tmdb.org/t/p/w500/oOleziEempUPu96jkGs0Pj6tKxj.jpg",
-    song: "Last Christmas - Wham!",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/5/51/Wham%21_-_Last_Christmas.png"
+    song: "White Christmas – Frank Sinatra",
+    songImage: "https://i.scdn.co/image/ab67616d0000b273b037583e1b1a897ec49488a1"
   },
   3: {
-    movie: "The Polar Express",
+    movie: "Santa Claus 3",
     movieImage: "https://image.tmdb.org/t/p/w500/eOoCzH0MqeGr2taUZO4SwG416PF.jpg",
-    song: "Jingle Bell Rock - Bobby Helms",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/6/6d/Jingle_Bell_Rock_Bobby_Helms.jpg"
+    song: "Underneath the Tree – Kelly Clarkson",
+    songImage: "https://i.ytimg.com/vi/YfF10ow4YEo/maxresdefault.jpg"
   },
   4: {
-    movie: "Miracle on 34th Street",
-    song: "Rockin' Around The Christmas Tree - Brenda Lee",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    movie: "Polarexpress",
+    song: "Last Christmas - Wham!",
+    songImage: "https://i1.sndcdn.com/artworks-UlkJ6CL7fdHwpiRi-v0E9Ug-t1080x1080.jpg"
   },
   5: {
-    movie: "The Santa Clause",
-    song: "White Christmas - Bing Crosby",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    movie: "Grinch",
+    song: "Santa Tell Me – Ariana Grande",
+    songImage: "https://i.scdn.co/image/ab67616d0000b273a1db745e63940bc06985dea5"
   },
   6: {
-    movie: "How the Grinch Stole Christmas",
-    song: "Feliz Navidad - José Feliciano",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    movie: "Ebenezer Scrooge",
+    movieImage: "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/DA6804681279CEED51BCEE50497B4FB8CDBBFBEF11B7DC1F99A78C5F5C1E2973/scale?width=1200&aspectRatio=1.78&format=webp",
+    song: "Silent Night – Justin Bieber",
+    songImage: "https://www.justinbiebermusic.com/files/2019/11/release_201911_54cf62caa0575670d3cc5a7cf7183aa77e471681.jpg"
   },
   7: {
     movie: "A Christmas Carol",
-    song: "Santa Claus Is Comin' to Town - Bruce Springsteen",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Have Yourself a Merry Little Christmas – Sam Smith",
+    songImage: "https://m.media-amazon.com/images/I/61dk2qm8uJL._UXNaN_FMjpg_QL85_.jpg"
   },
   8: {
     movie: "It's a Wonderful Life",
-    song: "Silent Night - Various Artists",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Silver Bells – Michael Bublé & Naturally 7",
+    songImage: "https://i.ytimg.com/vi/Ll7l2KXygNg/maxresdefault.jpg"
   },
   9: {
     movie: "The Nightmare Before Christmas",
-    song: "Do They Know It's Christmas? - Band Aid",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Rockin' Around The Christmas Tree - Brenda Lee",
+    songImage: "https://upload.wikimedia.org/wikipedia/en/6/6d/Single_Brenda_Lee-Rockin%27_Around_the_Christmas_Tree_cover.jpg"
   },
   10: {
     movie: "Love Actually",
-    song: "Christmas Time Is Here - Vince Guaraldi Trio",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Let It Snow! Let It Snow! Let It Snow! - Dean Martin",
+    songImage: "https://i.scdn.co/image/ab67616d0000b2736d88028a85c771f37374c8ea"
   },
   11: {
     movie: "National Lampoon's Christmas Vacation",
-    song: "Santa Baby - Eartha Kitt",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Baby It's Cold Outside – Michael Bublé & Idina Menzel",
+    songImage: "https://i1.sndcdn.com/artworks-Em4gCl2K3Bt5-0-t500x500.jpg"
   },
   12: {
     movie: "The Holiday",
-    song: "Let It Snow! Let It Snow! Let It Snow! - Dean Martin",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Jingle Bell Rock – Hall & Oates",
+    songImage: "https://i.scdn.co/image/ab67616d0000b273758f7f6791ee819e6c2999b4"
   },
   13: {
     movie: "A Charlie Brown Christmas",
-    song: "Have Yourself a Merry Little Christmas - Frank Sinatra",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Mistletoe – Justin Bieber",
+    songImage: "https://m.media-amazon.com/images/I/71WTcKzH4rL._UF1000,1000_QL80_.jpg"
   },
   14: {
     movie: "Bad Santa",
-    song: "Christmas (Baby Please Come Home) - Darlene Love",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Do You Hear What I Hear? – Whitney Houston",
+    songImage: "https://cdns-images.dzcdn.net/images/cover/57791c4a61f7060657928e8eabaf9172/1900x1900-000000-80-0-0.jpg"
   },
   15: {
     movie: "Scrooged",
-    song: "Happy Xmas (War Is Over) - John Lennon",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "O Holy Night – Mariah Carey",
+    songImage: "https://i.scdn.co/image/ab67616d0000b2734246e3158421f5abb75abc4f"
   },
   16: {
     movie: "Die Hard",
-    song: "Wonderful Christmastime - Paul McCartney",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Christmas (Baby Please Come Home) – Mariah Carey",
+    songImage: "https://i.ytimg.com/vi/W_QigU6t9U0/maxresdefault.jpg"
   },
   17: {
     movie: "Home Alone 2: Lost in New York",
-    song: "The Christmas Song - Nat King Cole",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Frosty the Snowman – Michael Bublé",
+    songImage: "https://i.ytimg.com/vi/jIyVB1b2aBs/maxresdefault.jpg"
   },
   18: {
     movie: "Arthur Christmas",
-    song: "Silver Bells - Various Artists",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "My Only Wish (This Year) – Britney Spears",
+    songImage: "https://www.bide-et-musique.com/images/pochettes/18161.jpg"
   },
   19: {
     movie: "White Christmas",
-    song: "It's Beginning to Look a Lot Like Christmas - Michael Bublé",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Santa Claus Is Coming to Town – Jackson 5",
+    songImage: "https://upload.wikimedia.org/wikipedia/en/4/4f/Jackson5-ChristmasAlbum.jpg"
   },
   20: {
     movie: "The Muppet Christmas Carol",
-    song: "Winter Wonderland - Felix Bernard",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "All I Want for Christmas Is You – Mariah Carey",
+    songImage: "https://m.media-amazon.com/images/I/81U6o32LuUL._UF894,1000_QL80_.jpg"
   },
   21: {
     movie: "Fred Claus",
-    song: "Little Saint Nick - The Beach Boys",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Christmas Eve – Kelly Clarkson",
+    songImage: "https://i.scdn.co/image/ab67616d0000b27365a5a69e8e008fd75909f15c"
   },
   22: {
     movie: "The Christmas Chronicles",
-    song: "Deck the Halls - Various Artists",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Holly Jolly Christmas – Michael Bublé",
+    songImage: "https://i.ytimg.com/vi/Dkq3LD-4pmM/maxresdefault.jpg"
   },
   23: {
-    movie: "Rudolph the Red-Nosed Reindeer",
-    song: "O Holy Night - Various Artists",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    movie: "The Snowman",
+    song: "Deck the Halls – Pentatonix",
+    songImage: "https://i1.sndcdn.com/artworks-000278547860-zgjvfa-t500x500.jpg"
   },
   24: {
-    movie: "The Snowman",
-    song: "Carol of the Bells - Various Artists",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    movie: "Rudolph the Red-Nosed Reindeer",
+    song: "It's the Most Wonderful Time of the Year – Andy Williams",
+    songImage: "https://m.media-amazon.com/images/I/711UExmCgML._UF1000,1000_QL80_.jpg"
   },
   25: {
     movie: "A Christmas Story",
-    song: "Joy to the World - Various Artists",
-    songImage: "https://upload.wikimedia.org/wikipedia/en/f/f8/All_I_Want_for_Christmas_Is_You.jpg"
+    song: "Santa Baby + Santa Tell Me – Ariana Grande Mashup",
+    songImage: "https://i1.sndcdn.com/artworks-jeB67cUz0GJzdP7r-OzRlXw-t500x500.jpg"
   }
 };
 
@@ -139,26 +140,26 @@ const content = dayContent[dayNumber];
 </script>
 
 <template>
-  <div class="container mx-auto p-8">
-    <h1 class="text-4xl font-title mb-8">Day {{ dayNumber }}</h1>
+  <div class="container mx-auto p-8 min-h-screen text-white">
+    <h1 class="text-4xl font-title mb-8 text-red-600">Day {{ dayNumber }}</h1>
     <div class="grid grid-cols-2 gap-8">
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <h2 class="text-2xl font-title mb-4">Movie of the Day</h2>
+      <div class="rounded-lg p-6 transition-transform duration-300 hover:scale-105">
+        <h2 class="text-2xl font-title mb-4 text-gray-200">Movie of the Day</h2>
         <img 
           :src="content.movieImage" 
           :alt="content.movie"
-          class="w-full h-96 object-cover rounded-lg mb-4"
+          class="w-full h-96 object-cover rounded-lg mb-4 hover:opacity-80 transition-opacity duration-300"
         />
-        <p class="text-xl text-center">{{ content.movie }}</p>
+        <p class="text-xl text-center text-gray-300">{{ content.movie }}</p>
       </div>
-      <div class="bg-white rounded-lg p-6 shadow-lg">
-        <h2 class="text-2xl font-title mb-4">Song of the Day</h2>
+      <div class="rounded-lg p-6 transition-transform duration-300 hover:scale-105">
+        <h2 class="text-2xl font-title mb-4 text-gray-200">Song of the Day</h2>
         <img 
           :src="content.songImage" 
           :alt="content.song"
-          class="w-full h-96 object-cover rounded-lg mb-4"
+          class="w-full h-96 object-cover rounded-lg mb-4 hover:opacity-80 transition-opacity duration-300"
         />
-        <p class="text-xl text-center">{{ content.song }}</p>
+        <p class="text-xl text-center text-gray-300">{{ content.song }}</p>
       </div>
     </div>
   </div>
