@@ -140,26 +140,31 @@ const content = dayContent[dayNumber];
 </script>
 
 <template>
-  <div class="container mx-auto p-8 min-h-screen text-white">
-    <h1 class="text-4xl font-title mb-8 text-red-600">Day {{ dayNumber }}</h1>
-    <div class="grid grid-cols-2 gap-8">
-      <div class="rounded-lg p-6 transition-transform duration-300 hover:scale-105">
-        <h2 class="text-2xl font-title mb-4 text-gray-200">Movie of the Day</h2>
+  <div class="w-[1280px] mx-auto">
+    
+    <div class="flex items-center justify-evenly">
+      <div class="rounded-lg transition-transform duration-300 hover:scale-105">
+        <h2 class="text-3xl font-title mb-4 text-center text-gray-200">Movie of the Day</h2>
+
         <img 
           :src="content.movieImage" 
           :alt="content.movie"
-          class="w-full h-96 object-cover rounded-lg mb-4 hover:opacity-80 transition-opacity duration-300"
+          class="h-96 object-contain rounded-lg mb-4 hover:opacity-80 transition-opacity duration-300"
         />
-        <p class="text-xl text-center text-gray-300">{{ content.movie }}</p>
+
+        <p class="text-4xl font-title text-center text-[#DBC1AC]">{{ content.movie }}</p>
       </div>
-      <div class="rounded-lg p-6 transition-transform duration-300 hover:scale-105">
-        <h2 class="text-2xl font-title mb-4 text-gray-200">Song of the Day</h2>
+
+      <div class="grid gap-6 ">
+        <h2 class="text-3xl font-title text-center text-gray-200">Song of the Day</h2>
+
         <img 
           :src="content.songImage" 
           :alt="content.song"
-          class="w-full h-96 object-cover rounded-lg mb-4 hover:opacity-80 transition-opacity duration-300"
+          class="h-96 object-contain rounded-xl hover:opacity-80 transition-opacity duration-300"
         />
-        <p class="text-xl text-center text-gray-300">{{ content.song }}</p>
+
+        <p class="text-4xl font-title text-center text-[#DBC1AC]">{{ content.song }}</p>
       </div>
     </div>
   </div>
