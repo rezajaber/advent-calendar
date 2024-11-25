@@ -200,7 +200,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(2)" class="col-span-2 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/twelve.JPG" 
+          src="../assets/img/twelve.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />

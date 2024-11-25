@@ -32,7 +32,7 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="h-screen flex items-center justify-center bg-[#1b0f0f] py-5 relative overflow-hidden">
+  <div class="h-screen flex items-center justify-center bg-[#2d1a1a] py-5 relative overflow-hidden">
     <!-- Stars -->
     <div class="absolute inset-0">
       <div v-for="star in stars"

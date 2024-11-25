@@ -12,7 +12,10 @@ const dayContent = {
     movieLink: "https://www.disneyplus.com/movies/the-santa-clause/1Fuq9Y9yZ7mu",
     song: "It's Beginning to Look a Lot Like Christmas – Michael Bublé",
     songImage: "https://m.media-amazon.com/images/I/718TkO2DizL._UF1000,1000_QL80_.jpg",
-    songLink: "https://www.youtube.com/watch?v=0bhsXykXxfg"
+    songLink: "https://www.youtube.com/watch?v=0bhsXykXxfg",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   2: {
     movie: "Santa Claus 2",
@@ -21,7 +24,10 @@ const dayContent = {
     movieLink: "https://www.disneyplus.com/movies/the-santa-clause-2/31r4V0qAIpD6",
     song: "White Christmas – Frank Sinatra",
     songImage: "https://i.scdn.co/image/ab67616d0000b273b037583e1b1a897ec49488a1",
-    songLink: "https://www.youtube.com/watch?v=aDmVtvAvR18"
+    songLink: "https://www.youtube.com/watch?v=aDmVtvAvR18",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   3: {
     movie: "Santa Claus 3",
@@ -30,7 +36,10 @@ const dayContent = {
     movieLink: "https://www.disneyplus.com/movies/the-santa-clause-3-the-escape-clause/1p4QGZitQJL4",
     song: "Underneath the Tree – Kelly Clarkson",
     songImage: "https://i.scdn.co/image/ab67616d0000b273b985bec71a40ed40c8ee15c8",
-    songLink: "https://www.youtube.com/watch?v=YfF10ow4YEo"
+    songLink: "https://www.youtube.com/watch?v=YfF10ow4YEo",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   4: {
     movie: "Polarexpress",
@@ -39,7 +48,10 @@ const dayContent = {
     movieLink: "https://play.hbomax.com/page/urn:hbo:page:GXdu2ZQvq8JuAuwEAADbA:type:feature",
     song: "Last Christmas - Wham!",
     songImage: "https://i1.sndcdn.com/artworks-UlkJ6CL7fdHwpiRi-v0E9Ug-t1080x1080.jpg",
-    songLink: "https://www.youtube.com/watch?v=E8gmARGvPlI"
+    songLink: "https://www.youtube.com/watch?v=E8gmARGvPlI",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   5: {
     movie: "Grinch",
@@ -48,7 +60,10 @@ const dayContent = {
     movieLink: "https://www.peacocktv.com/watch/asset/movies/how-the-grinch-stole-christmas/0c6b4bc6-33ab-3e38-aa67-8a14565c8c38",
     song: "Santa Tell Me – Ariana Grande",
     songImage: "https://i.scdn.co/image/ab67616d0000b273a1db745e63940bc06985dea5",
-    songLink: "https://www.youtube.com/watch?v=nlR0MkrRklg"
+    songLink: "https://www.youtube.com/watch?v=nlR0MkrRklg",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   6: {
     movie: "Ebenezer Scrooge",
@@ -57,7 +72,10 @@ const dayContent = {
     movieLink: "https://www.disneyplus.com/de-de/browse/entity-8f498e51-90de-4f5d-8cb9-5b4dd4de81dc",
     song: "Silent Night – Justin Bieber",
     songImage: "https://www.justinbiebermusic.com/files/2019/11/release_201911_54cf62caa0575670d3cc5a7cf7183aa77e471681.jpg",
-    songLink: "https://www.youtube.com/watch?v=9WZI4g7qKrg"
+    songLink: "https://www.youtube.com/watch?v=9WZI4g7qKrg",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   7: {
     movie: "A Christmas Carol",
@@ -65,7 +83,10 @@ const dayContent = {
     movieLink: "https://www.amazon.com/Christmas-Carol-George-C-Scott/dp/B000VDDCLW",
     song: "Have Yourself a Merry Little Christmas – Sam Smith",
     songImage: "https://m.media-amazon.com/images/I/61dk2qm8uJL._UXNaN_FMjpg_QL85_.jpg",
-    songLink: "https://www.youtube.com/watch?v=rnEqv8WcVq8"
+    songLink: "https://www.youtube.com/watch?v=rnEqv8WcVq8",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   8: {
     movie: "It's a Wonderful Life",
@@ -73,7 +94,10 @@ const dayContent = {
     movieLink: "https://www.amazon.com/Its-Wonderful-Life-James-Stewart/dp/B000HEWEJO",
     song: "Silver Bells – Michael Bublé & Naturally 7",
     songImage: "https://m.media-amazon.com/images/I/718TkO2DizL._UF1000,1000_QL80_.jpg",
-    songLink: "https://www.youtube.com/watch?v=Ll7l2KXygNg"
+    songLink: "https://www.youtube.com/watch?v=Ll7l2KXygNg",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   9: {
     movie: "The Nightmare Before Christmas",
@@ -81,7 +105,10 @@ const dayContent = {
     movieLink: "https://www.disneyplus.com/movies/tim-burtons-the-nightmare-before-christmas/5GjwOj5Rkpz2",
     song: "Rockin' Around The Christmas Tree - Brenda Lee",
     songImage: "https://upload.wikimedia.org/wikipedia/en/6/6d/Single_Brenda_Lee-Rockin%27_Around_the_Christmas_Tree_cover.jpg",
-    songLink: "https://www.youtube.com/watch?v=1qYz7rfgLWE"
+    songLink: "https://www.youtube.com/watch?v=1qYz7rfgLWE",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   10: {
     movie: "Love Actually",
@@ -89,7 +116,10 @@ const dayContent = {
     movieLink: "https://www.peacocktv.com/watch/asset/movies/love-actually/cd73b524-5d45-3f44-96cd-7bc2c84ce56d",
     song: "Let It Snow! Let It Snow! Let It Snow! - Dean Martin",
     songImage: "https://i.scdn.co/image/ab67616d0000b2736d88028a85c771f37374c8ea",
-    songLink: "https://www.youtube.com/watch?v=Rnil5LyK_B0"
+    songLink: "https://www.youtube.com/watch?v=Rnil5LyK_B0",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   11: {
     movie: "National Lampoon's Christmas Vacation",
@@ -97,7 +127,10 @@ const dayContent = {
     movieLink: "https://play.hbomax.com/page/urn:hbo:page:GXdu2UwPp6LC3wwEAADe1:type:feature",
     song: "Baby It's Cold Outside – Michael Bublé & Idina Menzel",
     songImage: "https://i1.sndcdn.com/artworks-Em4gCl2K3Bt5-0-t500x500.jpg",
-    songLink: "https://www.youtube.com/watch?v=6bbuBubZ1yE"
+    songLink: "https://www.youtube.com/watch?v=6bbuBubZ1yE",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   12: {
     movie: "The Holiday",
@@ -105,7 +138,10 @@ const dayContent = {
     movieLink: "https://www.netflix.com/title/70045854",
     song: "Jingle Bell Rock – Hall & Oates",
     songImage: "https://i.scdn.co/image/ab67616d0000b273758f7f6791ee819e6c2999b4",
-    songLink: "https://www.youtube.com/watch?v=5vyMuxxLsD0M"
+    songLink: "https://www.youtube.com/watch?v=5vyMuxxLsD0M",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   13: {
     movie: "A Charlie Brown Christmas",
@@ -113,7 +149,10 @@ const dayContent = {
     movieLink: "https://tv.apple.com/us/movie/a-charlie-brown-christmas/umc.cmc.3sr1g8vtlmgrv1gfat0mdjv33",
     song: "Mistletoe – Justin Bieber",
     songImage: "https://m.media-amazon.com/images/I/71WTcKzH4rL._UF1000,1000_QL80_.jpg",
-    songLink: "https://www.youtube.com/watch?v=LUjn3RpkcKY"
+    songLink: "https://www.youtube.com/watch?v=LUjn3RpkcKY",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   14: {
     movie: "Bad Santa",
@@ -121,7 +160,10 @@ const dayContent = {
     movieLink: "https://www.amazon.com/Bad-Santa-Billy-Bob-Thornton/dp/B003QSPK1Q",
     song: "Do You Hear What I Hear? – Whitney Houston",
     songImage: "https://cdns-images.dzcdn.net/images/cover/57791c4a61f7060657928e8eabaf9172/1900x1900-000000-80-0-0.jpg",
-    songLink: "https://www.youtube.com/watch?v=kZ-coIXJf4s"
+    songLink: "https://www.youtube.com/watch?v=kZ-coIXJf4s",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   15: {
     movie: "Scrooged",
@@ -129,7 +171,10 @@ const dayContent = {
     movieLink: "https://www.paramountplus.com/movies/scrooged/LxUvG_zVqJ46pfU9QafFUVuKXKA_k_xP",
     song: "O Holy Night – Mariah Carey",
     songImage: "https://i.scdn.co/image/ab67616d0000b2734246e3158421f5abb75abc4f",
-    songLink: "https://www.youtube.com/watch?v=BEJmP8T07JU"
+    songLink: "https://www.youtube.com/watch?v=BEJmP8T07JU",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   16: {
     movie: "Die Hard",
@@ -137,7 +182,10 @@ const dayContent = {
     movieLink: "https://www.disneyplus.com/movies/die-hard/6hmr0UxNxs50",
     song: "Christmas (Baby Please Come Home) – Mariah Carey",
     songImage: "https://cdns-images.dzcdn.net/images/cover/60d8f7635ead9b3c5e571aec47a8c73e/0x1900-000000-80-0-0.jpg",
-    songLink: "https://www.youtube.com/watch?v=W_QigU6t9U0"
+    songLink: "https://www.youtube.com/watch?v=W_QigU6t9U0",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   17: {
     movie: "Home Alone 2: Lost in New York",
@@ -145,7 +193,10 @@ const dayContent = {
     movieLink: "https://www.disneyplus.com/movies/home-alone-2-lost-in-new-york/5GjwOj5Rkpz2",
     song: "Frosty the Snowman – Michael Bublé",
     songImage: "https://m.media-amazon.com/images/I/718TkO2DizL._UF1000,1000_QL80_.jpg",
-    songLink: "https://www.youtube.com/watch?v=jIyVB1b2aBs"
+    songLink: "https://www.youtube.com/watch?v=jIyVB1b2aBs",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   18: {
     movie: "Arthur Christmas",
@@ -153,7 +204,10 @@ const dayContent = {
     movieLink: "https://www.netflix.com/title/70167077",
     song: "My Only Wish (This Year) – Britney Spears",
     songImage: "https://www.bide-et-musique.com/images/pochettes/18161.jpg",
-    songLink: "https://www.youtube.com/watch?v=VkGD-FpYoLA"
+    songLink: "https://www.youtube.com/watch?v=VkGD-FpYoLA",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   19: {
     movie: "White Christmas",
@@ -161,7 +215,10 @@ const dayContent = {
     movieLink: "https://www.netflix.com/title/60003082",
     song: "Santa Claus Is Coming to Town – Jackson 5",
     songImage: "https://upload.wikimedia.org/wikipedia/en/4/4f/Jackson5-ChristmasAlbum.jpg",
-    songLink: "https://www.youtube.com/watch?v=HhiUOCo8LYQ"
+    songLink: "https://www.youtube.com/watch?v=HhiUOCo8LYQ",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   20: {
     movie: "The Muppet Christmas Carol",
@@ -169,7 +226,10 @@ const dayContent = {
     movieLink: "https://www.disneyplus.com/movies/the-muppet-christmas-carol/3Kqgp8R7PuUE",
     song: "All I Want for Christmas Is You – Mariah Carey",
     songImage: "https://m.media-amazon.com/images/I/81U6o32LuUL._UF894,1000_QL80_.jpg",
-    songLink: "https://www.youtube.com/watch?v=aAkMkVFwAoo"
+    songLink: "https://www.youtube.com/watch?v=aAkMkVFwAoo",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   21: {
     movie: "Fred Claus",
@@ -177,7 +237,10 @@ const dayContent = {
     movieLink: "https://play.hbomax.com/page/urn:hbo:page:GXdu2UwuaXqPDwgEAAABr:type:feature",
     song: "Christmas Eve – Kelly Clarkson",
     songImage: "https://i.scdn.co/image/ab67616d0000b27365a5a69e8e008fd75909f15c",
-    songLink: "https://www.youtube.com/watch?v=9NVU3B33_4Q"
+    songLink: "https://www.youtube.com/watch?v=9NVU3B33_4Q",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   22: {
     movie: "The Christmas Chronicles",
@@ -185,7 +248,10 @@ const dayContent = {
     movieLink: "https://www.netflix.com/title/80199682",
     song: "Holly Jolly Christmas – Michael Bublé",
     songImage: "https://m.media-amazon.com/images/I/718TkO2DizL._UF1000,1000_QL80_.jpg",
-    songLink: "https://www.youtube.com/watch?v=Dkq3LD-4pmM"
+    songLink: "https://www.youtube.com/watch?v=Dkq3LD-4pmM",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   23: {
     movie: "The Snowman",
@@ -193,7 +259,10 @@ const dayContent = {
     movieLink: "https://www.amazon.com/Snowman-Peter-Auty/dp/B07KRNXK4H",
     song: "Deck the Halls – Pentatonix",
     songImage: "https://i1.sndcdn.com/artworks-000278547860-zgjvfa-t500x500.jpg",
-    songLink: "https://www.youtube.com/watch?v=UqItlHUSN-4"
+    songLink: "https://www.youtube.com/watch?v=UqItlHUSN-4",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   24: {
     movie: "Rudolph the Red-Nosed Reindeer",
@@ -201,7 +270,10 @@ const dayContent = {
     movieLink: "https://www.amazon.com/Rudolph-Red-Nosed-Reindeer-Billie-Richards/dp/B000VDDCD2",
     song: "It's the Most Wonderful Time of the Year – Andy Williams",
     songImage: "https://m.media-amazon.com/images/I/711UExmCgML._UF1000,1000_QL80_.jpg",
-    songLink: "https://www.youtube.com/watch?v=AN_R4pR1hck"
+    songLink: "https://www.youtube.com/watch?v=AN_R4pR1hck",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   },
   25: {
     movie: "A Christmas Story",
@@ -209,7 +281,10 @@ const dayContent = {
     movieLink: "https://play.hbomax.com/page/urn:hbo:page:GXdkpqAvq0r7DwgEAAAAH:type:feature",
     song: "Christmas Playlist",
     songImage: "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84864f6792bc9f140e1ddbb828",
-    songLink: "https://www.youtube.com/watch?v=o6wJSwbKbds"
+    songLink: "https://www.youtube.com/watch?v=o6wJSwbKbds",
+    story: "The Magic of Christmas Eve",
+    storyImage: "../assets/stories/story1.jpg",
+    storyLink: "/story/1"
   }
 };
 
@@ -218,52 +293,60 @@ const content = dayContent[dayNumber];
 </script>
 
 <template>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <!-- Day Indicator -->
-    <h1 class="text-6xl font-title text-center text-[#dbc1ac] mb-2">Day {{ dayNumber }}</h1>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Day Indicator -->
+        <h1 class="text-6xl font-title text-center text-[#dbc1ac] mb-2">Day {{ dayNumber }}</h1>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 py-12">
-      <!-- Movie Section -->
-      <div class="space-y-6">
-        <h2 class="text-4xl font-title text-gray-200 text-center mb-4">Movie of the Day</h2>
+        <div class="flex flex-wrap w-[1080px] justify-between py-12">
+        <!-- Movie Section -->
+        <div class="space-y-6">
+            <h2 class="text-4xl font-title text-gray-200 text-center mb-4">Movie of the Day</h2>
 
-        <a :href="content.movieLink" target="_blank" rel="noopener noreferrer">
-          <div class="group relative overflow-hidden rounded-2xl shadow-2xl">
-            <img 
-              :src="content.movieImage" 
-              :alt="content.movie"
-              class="w-full h-[500px] object-cover transition duration-300 group-hover:scale-105"
+            <a
+            :href="content.movieLink"
+            target="_blank"
+            class="group block transform hover:scale-105 transition-all duration-300"
+            >
+            <img
+                src="../assets/img/geschenk.png"
+                :alt="content.movie"
+                class="w-full h-80 object-contain"
             />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-              <p class="text-4xl font-title text-center text-white mb-4">
-                {{ content.movie }}
-              </p>
-              <p class="text-lg text-white text-center">
-                {{ content.movieDescription }}
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
+            </a>
+        </div>
 
-      <!-- Song Section -->
-      <div class="space-y-6">
-        <h2 class="text-4xl font-title text-gray-200 text-center mb-4">Song of the Day</h2>
-        <a :href="content.songLink" target="_blank" rel="noopener noreferrer">
-          <div class="group relative overflow-hidden rounded-2xl shadow-2xl">
-            <img 
-              :src="content.songImage" 
-              :alt="content.song"
-              class="w-full h-[500px] object-contain transition duration-300 group-hover:scale-105"
+        <!-- Song Section -->
+        <div class="space-y-6">
+            <h2 class="text-4xl font-title text-gray-200 text-center mb-4">Song of the Day</h2>
+
+            <a
+            :href="content.songLink"
+            target="_blank"
+            class="group block transform hover:scale-105 transition-all duration-300"
+            >
+            <img
+                src="../assets/img/geschenk.png"
+                :alt="content.song"
+                class="w-full h-80 object-contain"
             />
-            <div class="absolute inset-0 bg-gradient-to-t from-black/90 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
-              <p class="text-4xl font-title text-center text-white">
-                {{ content.song }}
-              </p>
-            </div>
-          </div>
-        </a>
-      </div>
+            </a>
+        </div>
+
+        <!-- Story Section - Updated -->
+        <div class="space-y-6">
+            <h2 class="text-4xl font-title text-gray-200 text-center mb-4">Story of the Day</h2>
+
+            <router-link
+                :to="content.storyLink"
+                class="group block transform hover:scale-105 transition-all duration-300"
+            >
+                <img
+                    src="../assets/img/geschenk.png"
+                    :alt="content.story"
+                    class="w-full h-80 object-contain"
+                />
+            </router-link>
+        </div>
+        </div>
     </div>
-  </div>
-</template> 
+</template>
