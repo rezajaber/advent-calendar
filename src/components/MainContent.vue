@@ -19,7 +19,7 @@ const openDoor = (dayNumber) => {
     >
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/one.jpeg" 
+          src="../assets/img/doors/one.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -38,7 +38,7 @@ const openDoor = (dayNumber) => {
     >
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/two.jpeg" 
+          src="../assets/img/doors/two.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover object-bottom"
         />
@@ -54,7 +54,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(3)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/three.jpeg" 
+          src="../assets/img/doors/three.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -70,7 +70,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(19)" class="col-span-1 row-span-2 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/four.jpeg" 
+          src="../assets/img/doors/four.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -86,7 +86,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(5)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/five.jpeg" 
+          src="../assets/img/doors/five.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -102,7 +102,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(18)" class="col-span-2 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/six.jpeg" 
+          src="../assets/img/doors/six.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -118,7 +118,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(7)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/seven.jpeg" 
+          src="../assets/img/doors/seven.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -136,7 +136,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(22)" class="col-span-1 row-span-2 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/eight.jpeg" 
+          src="../assets/img/doors/eight.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -152,7 +152,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(4)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/nine.jpeg" 
+          src="../assets/img/doors/nine.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover object-left-bottom scale-150"
         />
@@ -168,7 +168,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(11)" class="col-span-2 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/ten.jpeg" 
+          src="../assets/img/doors/ten.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -184,7 +184,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(17)" class="col-span-2 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/eleven.jpeg" 
+          src="../assets/img/doors/eleven.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -200,7 +200,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(2)" class="col-span-2 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/twelve.jpeg" 
+          src="../assets/img/doors/twelve.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -219,7 +219,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(13)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/thirteen.jpeg" 
+          src="../assets/img/doors/thirteen.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -235,7 +235,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(8)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/fourteen.jpeg" 
+          src="../assets/img/doors/fourteen.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -251,7 +251,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(10)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/fifteen.jpeg" 
+          src="../assets/img/doors/fifteen.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -268,7 +268,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(21)" class="col-span-1 row-span-2 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/sixteen.jpeg" 
+          src="../assets/img/doors/sixteen.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -283,7 +283,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(1)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/seventeen.jpeg" 
+          src="../assets/img/doors/seventeen.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -298,7 +298,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(20)" class="col-span-1 row-span-2 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/eighteen.jpeg" 
+          src="../assets/img/doors/eighteen.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -314,7 +314,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(9)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/ninteen.jpeg" 
+          src="../assets/img/doors/ninteen.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -330,7 +330,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(16)" class="col-span-1 row-span-2 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/twenty.jpeg" 
+          src="../assets/img/doors/twenty.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -348,7 +348,7 @@ const openDoor = (dayNumber) => {
     <div @click="openDoor(23)" class="col-span-2 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/twentyone.jpeg" 
+          src="../assets/img/doors/twentyone.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -366,7 +366,7 @@ const openDoor = (dayNumber) => {
       <div @click="openDoor(22)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/twentytwo.jpeg" 
+          src="../assets/img/doors/twentytwo.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -383,7 +383,7 @@ const openDoor = (dayNumber) => {
       <div @click="openDoor(25)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/twentythree.jpeg" 
+          src="../assets/img/doors/twentythree.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -400,7 +400,7 @@ const openDoor = (dayNumber) => {
       <div @click="openDoor(24)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/twentyfour.jpeg" 
+          src="../assets/img/doors/twentyfour.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
@@ -417,7 +417,7 @@ const openDoor = (dayNumber) => {
       <div @click="openDoor(15)" class="col-span-1 h-40 rounded-lg relative overflow-hidden cursor-pointer hover:scale-105 duration-300 transition-transform">
       <div class="absolute inset-0">
         <img 
-          src="../assets/img/twentyfive.jpeg" 
+          src="../assets/img/doors/twentyfive.jpeg" 
           alt="Day 10"
           class="w-full h-full object-cover"
         />
