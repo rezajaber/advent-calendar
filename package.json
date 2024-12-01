@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://rezajaber.github.io/advent-calender",
+  "homepage": "https://adventcalendar.rezajaber.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,6 +11,7 @@
     "deploy": "npm run build && gh-pages -d dist",
     "type-check": "vue-tsc --build --force"
   },
+
   "dependencies": {
     "lucide-vue-next": "^0.462.0",
     "vue": "^3.5.12",
