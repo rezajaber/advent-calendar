@@ -12,11 +12,15 @@ import londonfour from '../assets/img/stories/london/four.webp';
 import londonfive from '../assets/img/stories/london/five.webp';
 import londonsix from '../assets/img/stories/london/six.webp';
 import londonseven from '../assets/img/stories/london/seven.webp';
+import londonaudio from '../assets/audios/londonaudio.mp3';
+
 
 import circus from '../assets/img/stories/circus/circus.webp';
 import rednose from '../assets/img/stories/circus/rednose.webp';
 import family from '../assets/img/stories/circus/family.webp';
 import dance from '../assets/img/stories/circus/dance.webp';
+import circusaudio from '../assets/audios/circusaudio.mp3';
+
 
 import bbq from '../assets/img/stories/valentinstag/bbq.webp';
 import bigmouth from '../assets/img/stories/valentinstag/bigmouth.webp';
@@ -26,7 +30,6 @@ import kneeopen from '../assets/img/stories/knee/kneeopen.webp';
 import kneefull from '../assets/img/stories/knee/kneefull.webp';
 
 
-
 import { ref } from 'vue';
 const currentImageIndex = ref(0);
 
@@ -34,12 +37,12 @@ const stories = {
   1: {
     title: "Silvester in London",
     images: [londonone, londontwo, londonthree, londonfour, londonfive, londonsix, londonseven],
-    audio: "/path/to/audio1.mp3"
+    audio: londonaudio
   },
   2: {
-    title: "Mein Erster Zirkus Besuch", 
+    title: "Mein Erster Zirkus Besuch",
     images: [circus, family, dance, rednose],
-    audio: "/path/to/audio2.mp3"
+    audio: circusaudio
   },
   3: {
     title: "Valentinstag",
@@ -177,10 +180,10 @@ const previousImage = () => {
 
     <div class="relative w-full max-w-3xl mb-6 px-12">
       <div class="relative h-[500px] border rounded-2xl">
-        <img 
+    <img 
           :src="story.images[currentImageIndex]" 
           :alt="`${story.title} - Image ${currentImageIndex + 1}`"
-          class="object-contain w-full h-full object-cover"
+          class="object-cover w-full h-full"
         />
         
         <button 
