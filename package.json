@@ -3,11 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://rezajaber.github.io/advent-calender",
   "scripts": {
     "dev": "vite",
-    "build": "run-p type-check \"build-only {@}\" --",
+    "build": "vite build",
     "preview": "vite preview",
-    "build-only": "vite build",
+    "deploy": "npm run build && gh-pages -d dist",
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
@@ -21,7 +22,7 @@
     "@vitejs/plugin-vue": "^5.1.4",
     "@vue/tsconfig": "^0.5.1",
     "autoprefixer": "^10.4.20",
-    "npm-run-all2": "^7.0.1",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.15",
     "typescript": "~5.6.3",
