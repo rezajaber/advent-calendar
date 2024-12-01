@@ -13,7 +13,20 @@ const router = createRouter({
     {
       path: '/day/:number',
       name: 'DayContent',
-      component: () => import('../views/DayContent.vue')
+      component: () => import('../views/DayContent.vue'),
+      beforeEnter: (to, from, next) => {
+        const dayNumber = parseInt(to.params.number as string);
+        const today = new Date();
+        const isDecember = today.getMonth() === 11;
+        const currentDay = today.getDate();
+
+        if (isDecember && currentDay >= dayNumber) {
+          next(); // Allow access
+        } else {
+          alert(`This content will unlock on December ${dayNumber}th!`);
+          next('/'); // Redirect to home
+        }
+      }
     },
     {
       path: '/story/:id',
