@@ -203,7 +203,7 @@ const content = dayContent[dayNumber];
             class="group block transform hover:scale-105 transition-all duration-300"
             >
             <img
-                src="../assets/img/geschenk.png"
+                src="../assets/img/geschenk.webp"
                 :alt="content.movie"
                 class="w-full h-80 object-contain"
             />
@@ -220,7 +220,7 @@ const content = dayContent[dayNumber];
             class="group block transform hover:scale-105 transition-all duration-300"
             >
             <img
-                src="../assets/img/geschenk.png"
+                src="../assets/img/geschenk.webp"
                 :alt="content.song"
                 class="w-full h-80 object-contain"
             />
@@ -236,7 +236,7 @@ const content = dayContent[dayNumber];
                 class="group block transform hover:scale-105 transition-all duration-300"
             >
                 <img
-                    src="../assets/img/geschenk.png"
+                    src="../assets/img/geschenk.webp"
                     :alt="content.story"
                     class="w-full h-80 object-contain"
                 />
