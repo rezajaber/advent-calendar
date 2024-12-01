@@ -23,7 +23,7 @@ const router = createRouter({
         if (isDecember && currentDay >= dayNumber) {
           next(); // Allow access
         } else {
-          alert(`This content will unlock on December ${dayNumber}th!`);
+          alert(`Diese Seite wird am ${dayNumber}. Dezember freigeschaltet!`);
           next('/'); // Redirect to home
         }
       }
@@ -41,7 +41,7 @@ const router = createRouter({
         if (isDecember && currentDay >= storyId) {
           next(); // Allow access
         } else {
-          alert(`This story will unlock on December ${storyId}th!`);
+          alert(`Diese Geschichte wird am ${storyId}. Dezember freigeschaltet!`);
           next('/'); // Redirect to home
         }
       }
