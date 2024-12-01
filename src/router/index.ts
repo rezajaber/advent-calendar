@@ -31,7 +31,20 @@ const router = createRouter({
     {
       path: '/story/:id',
       name: 'Story',
-      component: StoryPage
+      component: StoryPage,
+      beforeEnter: (to, from, next) => {
+        const storyId = parseInt(to.params.id as string);
+        const today = new Date();
+        const isDecember = today.getMonth() === 11;
+        const currentDay = today.getDate();
+
+        if (isDecember && currentDay >= storyId) {
+          next(); // Allow access
+        } else {
+          alert(`This story will unlock on December ${storyId}th!`);
+          next('/'); // Redirect to home
+        }
+      }
     }
   ],
 });
