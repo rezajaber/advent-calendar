@@ -1,11 +1,35 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
 import { ref, onMounted } from 'vue'
+import { Volume2, VolumeX } from 'lucide-vue-next' // Import the icons
+
+// Import the audio file
+import pageMusic from '@/assets/audios/page.mp3'
 
 const snowflakes = ref([])
 const stars = ref([])
+let audio: HTMLAudioElement | null = null
+const isPlaying = ref(false)
+
+const toggleMusic = () => {
+  if (!audio) {
+    audio = new Audio(pageMusic)
+    audio.loop = true
+    audio.volume = 0.5
+  }
+
+  if (isPlaying.value) {
+    audio.pause()
+  } else {
+    audio.play().catch(err => {
+      console.log("Audio playback requires user interaction:", err)
+    })
+  }
+  isPlaying.value = !isPlaying.value
+}
 
 onMounted(() => {
+  // Generate snowflakes
   for (let i = 0; i < 300; i++) {
     snowflakes.value.push({
       id: i,
@@ -18,7 +42,8 @@ onMounted(() => {
       layer: Math.floor(Math.random() * 3)
     })
   }
-  
+
+  // Generate stars
   for (let i = 0; i < 50; i++) {
     stars.value.push({
       id: i,
@@ -97,6 +122,15 @@ onMounted(() => {
       <div class="absolute inset-0 blur-2xl bg-white/[0.02]"></div>
       <RouterView />
     </div>
+
+    <!-- Sound Toggle Button -->
+    <button 
+      @click="toggleMusic"
+      class="fixed top-4 right-4 z-20 bg-white/10 hover:bg-white/20 rounded-full p-3 transition-all duration-300"
+    >
+      <Volume2 v-if="isPlaying" class="w-6 h-6 text-white" />
+      <VolumeX v-else class="w-6 h-6 text-white" />
+    </button>
   </div>
 </template>
 
